@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-image: url(img/pexels-pixabay-60504.jpg);
+    background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+   
+}
+
+.container{
+    display: flex;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container__contenido{
+    width: 40rem;
+    height: 40rem;
+    border: none;
+    margin-top: 19rem;
+    border-radius: 10px;
+    background-color: #e7e4decd;
+}
+
+h1{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xxx-large;
+  margin-left: 70px;
+  color: #423d39;
+}
+
+h2{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-descripcion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.texto__parrafo{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: x-large;
+
+}
+
+.container__input{
+    height: 2rem;
+    width: 4rem;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: x-large;
+    
+}
+
+.boton{
+    margin-left: 30px;
+    border: 0;
+    width: 189px;
+    height: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: x-large;
+    color: white;
+    background-image: linear-gradient( 150deg, #6CBBCF,#3aacc8,#3a7c8c,#3f7583);
+    padding: 4px;
+    cursor: pointer;
+    
+}
+
+
+
+button:hover span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    transform: scale(0.9);
+}
+
+.container__campo{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+   
+}
+
+.container__contrasena{
+    width: 36rem;
+    height: 5rem;
+    padding-left: 10px;
+    font-size: xx-large;
+    border-radius: 5px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.containterFooter{
+   position: absolute;  
+   background-color: #000A14;
+   width: 100%;
+   bottom: 0;
+}
+
+.imgAlura{
+    display: flex;
+    margin-left: 30rem;
+    background-size: cover;
+   background-position: center; 
+   background-repeat: no-repeat;
+}
